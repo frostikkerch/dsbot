@@ -1,5 +1,8 @@
 import discord
 import requests
+from discord_webhook import DiscordWebhook
+
+webhook = DiscordWebhook(url='https://discordapp.com/api/webhooks/1099635850784030750/dQJPS8iqpO7muwGO7xd1bXhBMdmR9WSZXazXY9n3OET5rjIABRxY8Ak5DOoviCqSXD0j')
 
 client = discord.Client()
 
